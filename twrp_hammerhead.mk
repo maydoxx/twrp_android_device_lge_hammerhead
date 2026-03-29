@@ -19,10 +19,10 @@ PRODUCT_RELEASE_NAME := hammerhead
 
 # Inherit what we need
 $(call inherit-product, build/target/product/embedded.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME   := omni_hammerhead
+PRODUCT_NAME   := twrp_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND  := google
 PRODUCT_MODEL  := Nexus 5
